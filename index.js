@@ -5,12 +5,20 @@ const returnFirstTwoDrivers = function(drivers) {
 
 const returnLastTwoDrivers = function(drivers) {
     return drivers.slice(-2);
-}
+};
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
-function createFareMultiplier(int) {
-    return function() {
-        return (int)(4)
+function createFareMultiplier(n) {
+    return function(int) {
+        return n * int
     }
-}
+};
+
+const fareDoubler = createFareMultiplier(2);
+
+const fareTripler = createFareMultiplier(3);
+
+function selectDifferentDrivers(drivers, selected) {
+    return selected(drivers)
+};
