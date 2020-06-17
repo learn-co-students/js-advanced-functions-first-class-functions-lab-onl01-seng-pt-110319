@@ -4,7 +4,9 @@ function returnFirstTwoDrivers(){
   
 }
 function returnLastTwoDrivers(){
-  
+  const a = (function(arr, n){
+    return arr.slice(0, 2)
+  })
 }
 function selectingDrivers(){
   
