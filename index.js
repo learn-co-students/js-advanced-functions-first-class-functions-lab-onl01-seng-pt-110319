@@ -6,19 +6,19 @@ function returnFirstTwoDrivers(){
 function returnLastTwoDrivers(){
   
 }
-function returnFirstTwoDrivers(){
+function selectingDrivers(){
   
 }
-function returnFirstTwoDrivers(){
+function createFareMultiplier(){
   
 }
-function returnFirstTwoDrivers(){
+function fareDoubler(){
   
 }
-function returnFirstTwoDrivers(){
+function fareTripler(){
   
 }
-function returnFirstTwoDrivers(){
+function selectDifferentDrivers(){
   
 }
 
