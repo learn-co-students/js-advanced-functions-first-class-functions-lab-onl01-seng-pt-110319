@@ -2,11 +2,10 @@
 
 const returnFirstTwoDrivers = function(drivers){
   return drivers.slice(0,2) }
-function returnLastTwoDrivers(){
-  const a = (function(arr, n){
-    return arr.slice(-1, 2)
-  })
-}
+  
+const returnLastTwoDrivers = function(drivers){
+  return drivers.slice(-1, 2) }
+  
 function selectingDrivers(){
   
 }
